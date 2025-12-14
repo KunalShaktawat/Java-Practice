@@ -7,7 +7,7 @@ public class SecondLargest2 {
 		int secondLargest=Integer.MAX_VALUE;
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]>largest) {
-				secondLargest=largest;
+    		secondLargest=largest;
 				largest=arr[i];
 			}
 			else if(arr[i]>secondLargest && arr[i]!=largest) {
@@ -16,6 +16,8 @@ public class SecondLargest2 {
 		}
 		System.out.println("Largest number is "+largest);
 		System.out.println("Second largest number is "+secondLargest);
+	
+		
 	}
 
 }
