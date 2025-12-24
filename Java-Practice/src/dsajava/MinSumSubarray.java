@@ -1,5 +1,7 @@
 package dsajava;
 
+import java.util.Scanner;
+
 public class MinSumSubarray {
 	public static void main(String[] args) {
 		int[] arr= {3,3,4,2,6,3,1,0};
@@ -14,6 +16,7 @@ public class MinSumSubarray {
 			minSum=Math.min(minSum, curr_sum);
 		}
 		System.out.println("Minimum Sum: "+minSum);
+		
 	}
 
 }
